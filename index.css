@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Libre Baskerville',
+   serif;
+}
+
+.bg-dark {
+   background-color: black!important;
+
+}
+
+.navbar .navbar-nav {
+   padding-top: 35px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.navbar .navbar-collapse {
+   text-align: center;
+   justify-content: center;
+}
+
+.nav-link {
+   color: #F29422 !important;
+}
+
+.navbar-toggler {
+   background-color: black;
+}
+
+section {
+   min-height: 100vh;
+   width: 100%;
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+   background-color: black;
+}
+
+.container {
+   width: 90%;
+   max-width: 1000px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.map {
+   width: 50%;
+   height: 600px;
+   background:url(./images/nyc.map.png) no-repeat center / cover;
+   border-radius: 8px;
+}
+
+.bio {
+   width: 50%;
+   min-height: 400px;
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 30px;
+   border-radius: 8px;
+   color: #F29422;
+   margin-left: -70px;
+}
+
+.bio h1 {
+   font-size: 2.5rem;
+   font-weight: 500;
+   justify-content: center;
+}
+
+.bio p {
+   justify-content: center;
+   align-content: center;
+   margin: 20px;
+   font-weight: 500;
+   /* line-height: 2.9rem; */
+}
+
+.media {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   background-color: black;
+}
+
+.social {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+   background-color: black;
+}
+
+@media all and (max-width: 768px) {
+   .container {
+      flex-direction: column;
+      width: 100%;
+      margin: 0 20px;
+   }
+   .map {
+      width: 100%;
+   }
+   .bio {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      margin: 0;
+      margin-top: -100px;
+   }
+}
