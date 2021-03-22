@@ -54,6 +54,14 @@ h1 {
    text-shadow: #078080 1px 0 10px;
 }
 
+a {
+   color: #F29422;
+}
+
+a:visited {
+   color: #F29422;
+}
+
 .name {
    color: rgb(187, 179, 179);
 }
