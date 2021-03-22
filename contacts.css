@@ -105,4 +105,5 @@ button[type="submit"]:hover {
 
 h1 {
    color:#F29422;
+   text-shadow: #F29422 1px 0 10px
 }
