@@ -55,6 +55,16 @@ section {
    justify-content: center;
 }
 
+#hi {
+   display: flex;
+   justify-content: center;
+}
+
+#nyc {
+   display: flex;
+   justify-content: center;
+}
+
 .map {
    width: 50%;
    height: 600px;

@@ -7,6 +7,7 @@
 }
 
 body {
+   background-color: black;
    font-family: 'Libre Baskerville', serif;
 }
 
@@ -35,13 +36,155 @@ body {
    background-color: black;
 }
 
-.container {
-   display: grid;
-   grid-template-columns: repeat(12, 1fr);
-   grid-template-rows: repeat(100px, auto);
-   gap: 10px;
+.centered {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
 }
 
-.top {
-   grid-column: 2 / 13 ;
+.main {
+   color: #047ac2;
+   text-shadow: #069df9 1px 0px 2px;
+   font-size: 150%;
+}
+
+.color {
+   color: #f5be57;
+   text-shadow: #f5be57 1px 0px 3px;
+}
+
+.all {
+   color: #05c269;
+   letter-spacing: 1px;
+}
+
+#net {
+   color: #E50914;
+}
+
+
+#skills {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.flex {
+   color: #f5be57;
+   text-shadow: #f5be57 1px 0px 3px;
+}
+
+
+
+#one {
+   border-radius: 15% 10%;
+   box-shadow: 2px 2px 2px #05c269;
+   text-align: center;
+   height: 30px;
+   width: 80px;
+}
+
+#one:hover {
+   transition: transform 160ms;
+   transform: translateY(-5px);
+}
+
+#two {
+   border-radius: 15% 10%;
+   box-shadow: 2px 2px 2px #05c269;
+   text-align: center;
+   height: 30px;
+   width: 60px;
+}
+
+#two:hover {
+   transition: transform 160ms;
+   transform: translateY(-5px);
+}
+
+
+#three {
+   border-radius: 15% 10%;
+   box-shadow: 2px 2px 2px #05c269;
+   text-align: center;
+   height: 30px;
+   width: 100px;
+}
+
+#three:hover {
+   transition: transform 160ms;
+   transform: translateY(-5px);
+}
+
+
+#four {
+   border-radius: 15% 10%;
+   box-shadow: 2px 2px 2px #05c269;
+   text-align: center;
+   height: 30px;
+   width: 60px;
+}
+
+#four:hover {
+   transition: transform 160ms;
+   transform: translateY(-5px);
+}
+
+
+#five {
+   border-radius: 15% 10%;
+   box-shadow: 2px 2px 2px #05c269;
+   text-align: center;
+   height: 30px;
+   width: 60px;
+}
+
+#five:hover {
+   transition: transform 160ms;
+   transform: translateY(-5px);
+}
+
+.closing {
+   color: #069df9;
+   text-shadow: #069df9 1px 0px 2px;
+   font-size: 2rem;
+}
+
+
+ul {
+   list-style: none;
+}
+
+#center {
+   margin-left: 2rem;
+}
+
+@media all and (max-width: 768px) {
+   .centered {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 0;
+   }
+
+   #move {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .flex {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .skills {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
 }
