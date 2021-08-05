@@ -11,6 +11,10 @@ body {
    font-family: 'Libre Baskerville', serif;
 }
 
+img {
+   border-radius: 60%;
+}
+
 .bg-dark {
    background-color: black !important;
 }
